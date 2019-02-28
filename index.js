@@ -13,22 +13,18 @@ const LTCTick = db.models.get('ltc_usd');
 const BCHTick = db.models.get('bch_usd');
 
 btcChart.on('close', candle => {
-  console.log(candle);
   BTCTick.create(tick(candle));
 });
 
 ethChart.on('close', candle => {
-  console.log(candle);
   ETHTick.create(tick(candle));
 });
 
 ltcChart.on('close', candle => {
-  console.log(candle);
   LTCTick.create(tick(candle));
 });
 
 bchChart.on('close', candle => {
-  console.log(candle);
   BCHTick.create(tick(candle));
 });
 
