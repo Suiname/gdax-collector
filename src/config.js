@@ -4,7 +4,7 @@ require('dotenv').config();
 const config = {
   db: {
     host: process.env.DB_HOST,
-    name: 'price_history',
+    name: process.env.DB_NAME,
     port: 5432,
     username: process.env.DB_USER,
     password: process.env.DB_PASS,
