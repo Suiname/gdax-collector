@@ -13,7 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^6.2.0",
-    "gdax-candles": "^1.6.5",
+    "gdax-candles": "^1.7.0",
     "lodash": "^4.17.10",
     "pg": "^7.4.3",
     "pg-hstore": "^2.3.2",
